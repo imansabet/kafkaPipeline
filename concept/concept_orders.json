@@ -1,0 +1,8 @@
+[
+  {"order_id": "ORD-1042", "customer": "Priya Nair", "item": "Standing desk", "quantity": 1, "status": "placed"},
+  {"order_id": "ORD-1044", "customer": "Elena Petrova", "item": "27-inch monitor", "quantity": 1, "status": "placed"},
+  {"order_id": "ORD-1043", "customer": "Marcus Lee", "item": "Mechanical keyboard", "quantity": 2, "status": "placed"},
+  {"order_id": "ORD-1045", "customer": "Kenji Watanabe", "item": "USB-C dock", "quantity": 1, "status": "placed"},
+  {"order_id": "ORD-1042", "customer": "Priya Nair", "item": "Standing desk", "quantity": 1, "status": "paid"},
+  {"order_id": "ORD-1046", "customer": "Hannah Schmidt", "item": "Ergonomic chair", "quantity": 1, "status": "placed"}
+]
