@@ -1,0 +1,12 @@
+[
+  {"order_id": "ORD-1052", "customer": "Noah Fischer", "item": "Monitor arm", "quantity": 1, "shipping_city": "Zurich"},
+  {"order_id": "ORD-1054", "customer": "Isabella Costa", "item": "Desk lamp", "quantity": 2, "shipping_city": "Lisbon"},
+  {"order_id": "ORD-1053", "customer": "Ethan Brooks", "item": "Wireless mouse", "quantity": 1, "shipping_city": "Austin"},
+  {"order_id": "ORD-1055", "customer": "Mei Tanaka", "item": "Mechanical keyboard", "quantity": 1, "shipping_city": "Osaka"},
+  {"order_id": "ORD-1058", "customer": "Lucas Meyer", "item": "Webcam", "quantity": 1, "shipping_city": "Vienna"},
+  {"order_id": "ORD-1056", "customer": "Chloe Dubois", "item": "Standing desk", "quantity": 1, "shipping_city": "Lyon"},
+  {"order_id": "ORD-1059", "customer": "Oliver Hughes", "item": "Laptop stand", "quantity": 2, "shipping_city": "Leeds"},
+  {"order_id": "ORD-1057", "customer": "Zara Malik", "item": "Ergonomic chair", "quantity": 1, "shipping_city": "Sydney"},
+  {"order_id": "ORD-1064", "customer": "Diego Fernandez", "item": "USB-C dock", "quantity": 1, "shipping_city": "Madrid"},
+  {"order_id": "ORD-1060", "customer": "Emma Lindqvist", "item": "Noise-cancelling headphones", "quantity": 1, "shipping_city": "Stockholm"}
+]

@@ -1,0 +1,7 @@
+[
+  {"order_id": "ORD-1045", "customer": "Kenji Watanabe", "item": "USB-C dock", "quantity": 1, "shipping_city": "Vancouver"},
+  {"order_id": "ORD-1048", "customer": "Amara Okafor", "item": "Noise-cancelling headphones", "quantity": 1, "shipping_city": "Chicago"},
+  {"order_id": "ORD-1046", "customer": "Hannah Schmidt", "item": "Ergonomic chair", "quantity": 1, "shipping_city": "Berlin"},
+  {"order_id": "ORD-1049", "customer": "Liam O'Connor", "item": "Webcam", "quantity": 2, "shipping_city": "Dublin"},
+  {"order_id": "ORD-1050", "customer": "Sofia Rossi", "item": "Laptop stand", "quantity": 3, "shipping_city": "Milan"}
+]
