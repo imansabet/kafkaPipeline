@@ -1,0 +1,23 @@
+docker compose up -d
+docker compose ps
+docker compose logs broker
+docker compose exec broker /opt/kafka/bin/kafka-topics.sh --create --topic orders --partitions 2 --replication-factor 1 --bootstrap-server localhost:9092
+docker compose exec broker /opt/kafka/bin/kafka-topics.sh --describe --topic orders --bootstrap-server localhost:9092
+python producer.py
+python consumer.py
+python producer.py more_orders.json
+python consumer.py order-audit
+docker compose exec broker /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group order-notifications
+docker compose exec broker /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list
+python consumer.py order-notifications consumer-1
+python consumer.py order-notifications consumer-2
+python consumer.py order-notifications consumer-3
+python producer.py batch_orders.json
+python consumer.py order-audit audit-1
+python producer.py debug_order.json
+docker compose exec broker /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
+docker compose exec broker /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic order
+python consumer.py order-debug debug-1
+docker compose exec broker /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group order-debug
+python producer.py new_order.json
+python producer.py offline_order.json
